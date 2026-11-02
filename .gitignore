@@ -1,0 +1,37 @@
+# Dependencias
+node_modules
+.pnpm-store/
+
+# Builds
+dist/
+build/
+*.tsbuildinfo
+
+# Variables de entorno (se suben solo los .env.example)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Vite
+.vite/
+*.local
+
+# Tests y cobertura
+coverage/
+
+# Editores
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
