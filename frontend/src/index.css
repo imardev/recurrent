@@ -1,1 +1,33 @@
 @import "tailwindcss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@theme {
+  --color-primary: #3ef2ae;
+}
+@layer components {
+  .btn {
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: 4px -2px 10px 1px rgb(119, 119, 119);
+  }
+
+  .btn-primary {
+    background-color: rgb(16, 16, 16);
+    color: rgb(225, 225, 225);
+  }
+
+  .btn-outline {
+    color: rgb(16, 16, 16);
+    outline: 1px solid rgb(194, 194, 194);
+    background-color: rgba(232, 232, 232, 0.311);
+    backdrop-filter: blur(2px);
+  }
+}
