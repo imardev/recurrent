@@ -1,9 +1,17 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+
 export default function Home() {
   return (
     <main>
       <Header />
-      <h1>Home</h1>
+      <main>
+        <section>
+          <Hero />
+        </section>
+      </main>
+      <Footer />
     </main>
   );
 }
