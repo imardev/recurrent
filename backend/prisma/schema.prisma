@@ -19,8 +19,8 @@ model User {
   name          String?
   passwordHash  String
   suscripciones Subscriptions[]
+  isDemo        Boolean?      @default(false)
   created_at    DateTime      @default(now())
-  updated_at    DateTime
 }
 
 model Subscriptions {
